@@ -34,7 +34,6 @@ print(window_id)
 #Save the image
 subprocess.call([
     'screencapture',
-    '-t', 'jpg',
     '-x',
     '-r',
     '-o',
